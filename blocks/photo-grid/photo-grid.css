@@ -19,3 +19,11 @@
   }
 
 }
+
+@media screen and (max-width: 550px) {
+
+  .photo-grid {
+    gap: 12px;
+  }
+
+}

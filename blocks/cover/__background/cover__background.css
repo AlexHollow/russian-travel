@@ -15,6 +15,22 @@
   cursor: pointer;
 }
 
+.cover__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  transition: .2s linear;
+  z-index: 1;
+}
+
+.cover:hover .cover__background::before {
+  background-color: rgba(42, 44, 47, .8);
+}
+
 @media screen and (max-width: 1024px) {
   
   .cover__background {

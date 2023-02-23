@@ -28,6 +28,15 @@
 
   .place {
     row-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .place {
     grid-template-columns: 320px;
   }
 
