@@ -1,0 +1,19 @@
+.content__lead {
+  padding: 56px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .content__lead {
+    padding: 48px 48px 0;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .content__lead {
+    padding: 48px 0 0;
+  }
+
+}
